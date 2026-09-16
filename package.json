@@ -1,0 +1,41 @@
+{
+  "name": "@yukikisaku/pi-codex-reset",
+  "version": "0.1.0",
+  "description": "Use an earned Codex reset credit from inside Pi.",
+  "type": "module",
+  "license": "MIT",
+  "author": "yuki-kisaku",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukikisaku/pi-codex-reset.git"
+  },
+  "homepage": "https://github.com/yukikisaku/pi-codex-reset#readme",
+  "bugs": {
+    "url": "https://github.com/yukikisaku/pi-codex-reset/issues"
+  },
+  "keywords": [
+    "pi-package",
+    "pi-extension"
+  ],
+  "files": [
+    "index.ts",
+    "codex-app-server.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "node --no-warnings ./test/smoke.ts"
+  }
+}
