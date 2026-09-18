@@ -12,7 +12,7 @@ import {
 } from "./codex-app-server.ts";
 
 const COMMAND = "reset-codex";
-const STATUS_KEY = "pi-codex-reset";
+const STATUS_KEY = "pi-reset-codex";
 
 export type ResetCodexDependencies = {
 	readRateLimits: () => Promise<AccountRateLimits>;

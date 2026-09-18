@@ -51,7 +51,7 @@ type RpcResponse = {
 };
 
 const CLIENT_INFO = {
-	name: "pi-codex-reset",
+	name: "pi-reset-codex",
 	title: "Pi Codex Reset",
 	version: "0.1.0",
 };

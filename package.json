@@ -1,5 +1,5 @@
 {
-  "name": "@yukikisaku/pi-codex-reset",
+  "name": "@yukikisaku/pi-reset-codex",
   "version": "0.1.0",
   "description": "Use an earned Codex reset credit from inside Pi.",
   "type": "module",
@@ -7,11 +7,11 @@
   "author": "yuki-kisaku",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yukikisaku/pi-codex-reset.git"
+    "url": "git+https://github.com/yukikisaku/pi-reset-codex.git"
   },
-  "homepage": "https://github.com/yukikisaku/pi-codex-reset#readme",
+  "homepage": "https://github.com/yukikisaku/pi-reset-codex#readme",
   "bugs": {
-    "url": "https://github.com/yukikisaku/pi-codex-reset/issues"
+    "url": "https://github.com/yukikisaku/pi-reset-codex/issues"
   },
   "keywords": [
     "pi-package",

@@ -1,4 +1,4 @@
-# pi-codex-reset
+# pi-reset-codex
 
 ## Overview
 
@@ -11,7 +11,7 @@ Requires the `codex` CLI, an authenticated Codex account, and an account with re
 ## Installation
 
 ```sh
-pi install npm:@yukikisaku/pi-codex-reset
+pi install npm:@yukikisaku/pi-reset-codex
 ```
 
 ## Usage
@@ -25,7 +25,7 @@ Set `CODEX_BIN` if the Codex executable is not named `codex`.
 ## Uninstallation
 
 ```sh
-pi uninstall npm:@yukikisaku/pi-codex-reset
+pi uninstall npm:@yukikisaku/pi-reset-codex
 ```
 
 Remove any package-specific configuration described above if you no longer need it.

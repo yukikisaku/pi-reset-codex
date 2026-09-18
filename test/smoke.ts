@@ -11,7 +11,7 @@ import {
 } from "../codex-app-server.ts";
 import { createResetCodexHandler } from "../index.ts";
 
-const tmp = mkdtempSync(join(tmpdir(), "pi-codex-reset-"));
+const tmp = mkdtempSync(join(tmpdir(), "pi-reset-codex-"));
 const fakeCodexScript = join(tmp, "fake-codex.mjs");
 const capturePath = join(tmp, "consume.json");
 
@@ -160,4 +160,4 @@ try {
 	rmSync(tmp, { recursive: true, force: true });
 }
 
-console.log("pi-codex-reset smoke ok");
+console.log("pi-reset-codex smoke ok");
